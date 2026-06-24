@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="w-170 flex justify-between">
+        <div className="w-170 flex flex-wrap justify-between">
           <div className="flex flex-col gap-3">
             {listP.map((data, index) => (
               <p
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-[179px] font-cormorant font-medium leading-56.75 tracking-[-8%] text-white text-center max-[1280px]:-mb-75 max-[912px]:-mb-135">
+      <p className="self-center text-[179px] font-cormorant font-medium leading-56.75 tracking-[-8%] text-white text-center max-[1280px]:-mb-75 max-[912px]:-mb-135">
         Bolanle Banwo Osadolo
       </p>
     </footer>
