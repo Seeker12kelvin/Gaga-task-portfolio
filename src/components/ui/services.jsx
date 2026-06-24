@@ -38,7 +38,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="xl:min-h-[2086px] h-fit w-full pt-20 flex flex-col max-[1115px]:gap-20 min-[1115px]:justify-between">
+    <section
+      id="services"
+      className="xl:min-h-[2086px] h-fit w-full pt-20 flex flex-col max-[1115px]:gap-20 min-[1115px]:justify-between"
+    >
       <div className="w-full flex flex-col gap-10">
         <h2 className="font-cormorant font-medium md:text-[100px] max-md:text-[80px] max-sm:text-[65px]">
           What I offer

@@ -44,7 +44,7 @@ const News = () => {
 
   return (
     <section
-      id="news-section"
+      id="news"
       className="min-h-302.25 h-fit w-full pt-20 flex flex-col gap-20"
     >
       <h2 className="font-cormorant font-medium md:text-[100px] max-md:text-[80px] max-sm:text-[65px] tracking-[-5%] leading-[100%]">
