@@ -45,7 +45,7 @@ const Services = () => {
         </h2>
 
         <div className="flex items-end w-full justify-between">
-          <div className="flex md:flex-col items-center min-[1235px]:items-end gap-6 max-[1160px]:hidden">
+          <div className="flex max-xl:flex-col items-center xl:items-end gap-6 max-[1160px]:hidden">
             <img
               src={servicesPic1}
               alt="A picture of Bolanle Banwo Osadolo"
